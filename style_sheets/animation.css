@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @keyframes moveLine {
   from {
     transform: translate(0, 0);
@@ -50,56 +49,3 @@
     opacity: 1;
   }
 }
-=======
-@keyframes moveLine {
-  from {
-    transform: translate(0, 0);
-    opacity: 0.35;
-  }
-  to {
-    transform: translate(0, 8px);
-    opacity: 1;
-  }
-}
-@keyframes moveTop {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-8px);
-  }
-}
-@keyframes moveRight {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(8px);
-  }
-}
-@keyframes moveBottom {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(8px);
-  }
-}
-@keyframes moveLeft {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-8px);
-  }
-}
-
-@keyframes pageFade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
->>>>>>> 5ac43493634acee09e75b1eb845c9dc06dfa4528

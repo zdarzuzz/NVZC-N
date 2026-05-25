@@ -85,12 +85,12 @@ function showGrid() {
     const cell = createCell(type);
     preloader.appendChild(cell);
   }
-  setTimeout(function () {
-    preloader.style.opacity = "0";
-    setTimeout(function () {
-      window.location.href = "./index.html";
-    }, 1000);
-  }, 5000);
+  // setTimeout(function () {
+  //   preloader.style.opacity = "0";
+  //   setTimeout(function () {
+  //     window.location.href = "./index.html";
+  //   }, 1000);
+  // }, 5000);
 }
 
 showOnePlus();
