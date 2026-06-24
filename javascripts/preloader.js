@@ -70,6 +70,11 @@ function showOnePlus() {
 
 function showGrid() {
   preloader.innerHTML = "";
+
+  preloader.style.display = "flex";
+  preloader.style.justifyContent = "center";
+  preloader.style.alignItems = "center";
+  preloader.style.flexWrap = "wrap";
   preloader.style.gridTemplateColumns = "repeat(14, 90px)";
 
   for (let i = 0; i < 84; i++) {

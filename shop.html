@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NVZC+Shop</title>
+    <link rel="stylesheet" href="./style_sheets/style.css" />
+    <script defer src="./javascripts/preloader.js"></script>
+    <script defer src="./javascripts/shop.js"></script>
+  </head>
+
+  <body>
+    <div class="toast_notification">Товар добавлен в избранное ❤</div>
+    <div id="loading">
+      <main id="preloader">
+        <div class="start-plus">
+          <div class="click-line top-line"></div>
+          <div class="click-line right-line"></div>
+          <div class="click-line bottom-line"></div>
+          <div class="click-line left-line"></div>
+
+          <div class="plus_plus">
+            <img class="plus1" src="images/plus1.png" alt="" />
+            <img class="plus2" src="images/plus2.png" alt="" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <section class="page_content">
+      <div class="plus_column"></div>
+      <div class="plus_column2"></div>
+
+      <nav class="filter_menu">
+        <button class="filter_main">Фильтры</button>
+
+        <div class="filter_submenu">
+          <button class="filter" data-filter="bags">Сумки и аксесуары</button>
+
+          <button class="filter" data-filter="home">Дом и комфорт</button>
+
+          <button class="filter" data-filter="outerwear">Верхняя одежда</button>
+        </div>
+      </nav>
+
+      <nav class="side_menu">
+        <a class="menu_link" href="index.html">о нас</a>
+        <a class="menu_link" href="courses.html">курсы</a>
+
+        <a class="menu_link_active" href="shop.html">маркет</a>
+        <a class="menu_cart" href="cart.html">
+          <img src="images/cart.png" alt="" />
+          <span>0</span>
+          <div class="cart_chip">+1</div>
+        </a>
+      </nav>
+
+      <section id="firstSection_Shop">
+        <div class="pinkBackgroud1"></div>
+        <div class="background_lines1">
+          <img src="images/background_lines2.png" alt="" />
+        </div>
+
+        <img class="header_courses" src="images/header_shop.png" alt="" />
+        <div class="scroll_arrow">
+          <img src="images/arrow_down.png" alt="" />
+        </div>
+
+        <h5 class="about_text10">
+          КОГДА-ТО МЫ ДОСТАВЛЯЛИ ПОМОЩЬ <br />ОТ НЕВЕЗЕНИЙ. <br />ТЕПЕРЬ МЫ
+          СОЗДАЁМ ВЕЩИ, КОТОРЫЕ ОСТАЮТСЯ РЯДОМ КАЖДЫЙ ДЕНЬ!
+        </h5>
+
+        <h5 class="about_text11">
+          Ниже — объекты, продолжающие эстетику и идеи NVZC+. Теперь у вас есть
+          возможность унести кусочек NVZC+ с собой!
+        </h5>
+      </section>
+      <section id="secondSection_Shop">
+        <div class="product_grid">
+          <!-- КАРТОЧКА  -->
+          <div
+            class="product_card"
+            data-popup="product1"
+            data-product="keyholder"
+            data-category="bags"
+          >
+            <img class="product_img" src="images/key1.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Ключница</h3>
+              <p>999 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_pink"></span>
+                <span class="color color_grey"></span>
+                <span class="color color_blue"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="product_card"
+            data-popup="product2"
+            data-product="clutch"
+            data-category="bags"
+          >
+            <img class="product_img" src="images/red_klatch1.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Клатч</h3>
+              <p>1899 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_pink"></span>
+                <span class="color color_grey"></span>
+                <span class="color color_blue"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="product_card"
+            data-popup="product3"
+            data-product="blanket"
+            data-category="home"
+          >
+            <img class="product_img" src="images/red_blanket0.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Плед</h3>
+              <p>777 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_pink"></span>
+                <span class="color color_blue"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="product_card"
+            data-popup="product4"
+            data-product="shopper"
+            data-category="bags"
+          >
+            <img class="product_img" src="images/blue_shopper.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Шоппер</h3>
+              <p>1399 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_pink"></span>
+                <span class="color color_grey"></span>
+                <span class="color color_blue"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="product_card"
+            data-popup="product5"
+            data-product="metalCoat"
+            data-category="outerwear"
+          >
+            <img class="product_img" src="images/metalCoat.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Металлический плащ</h3>
+              <p>888 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_grey"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="product_card"
+            data-popup="product6"
+            data-product="Coat"
+            data-category="outerwear"
+          >
+            <img class="product_img" src="images/coat.png" alt="" />
+            <!-- КАРТОЧКА -->
+            <div class="product_info">
+              <h3>Дождевик</h3>
+              <p>999 ₽</p>
+
+              <div class="product_colors">
+                <span class="color color_grey"></span>
+              </div>
+
+              <button class="product_fav">
+                <img class="like" src="images/product_button_fav.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ПОПАП -->
+        <div class="product_popup" id="product1" data-product="keyholder">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>КЛЮЧНИЦА</h2>
+              <p class="popup_price">999 ₽</p>
+
+              <p class="popup_description">
+                Ключница NVZC+ — маленький якорь внимания для вещей, которые
+                важно не терять. Она крепится на ремень или сумку и помогает
+                держать ключи рядом, а заодно мягко напоминает: опора может быть
+                простой, видимой и всегда под рукой.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_blue"
+                  data-image="images/key_blue.png"
+                  data-color="blue"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_pink active"
+                  data-image="images/key_pink.png"
+                  data-color="pink"
+                  data-price="1099 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>40 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>эко-кожа, металл</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>меньше поводов расстраиваться</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_popup" id="product2" data-product="clutch">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>КЛАТЧ</h2>
+              <p class="popup_price">1899 ₽</p>
+
+              <p class="popup_description">
+                Минималистичный клатч для вещей, которые должны быть рядом.
+                Документы, телефон, заметки, случайные мысли и всё, что
+                сопровождает вас в течение дня. Лаконичная форма и ничего
+                лишнего — только предмет и его назначение.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_blue"
+                  data-image="images/key_blue.png"
+                  data-color="blue"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_pink active"
+                  data-image="images/key_pink.png"
+                  data-color="pink"
+                  data-price="1099 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>250 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>экокожа, текстиль, металл</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>снижает вероятность потерять важное</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_popup" id="product3" data-product="blanket">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>ПЛЕД</h2>
+              <p class="popup_price">777 ₽</p>
+
+              <p class="popup_description">
+                Мягкий плед для вечеров дома, долгих чтений и дней, когда мир
+                кажется немного громче обычного. Согревает, создаёт ощущение
+                уюта и помогает ненадолго отключиться от лишнего.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_blue"
+                  data-image="images/key_blue.png"
+                  data-color="blue"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_pink active"
+                  data-image="images/key_pink.png"
+                  data-color="pink"
+                  data-price="1099 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>900 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>хлопок, полиэстер</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>повышает уровень комфорта</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_popup" id="product4" data-product="shopper">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>ШОППЕР</h2>
+              <p class="popup_price">1399 ₽</p>
+
+              <p class="popup_description">
+                Повседневная сумка для всего, что сопровождает вас в течение
+                дня. Книга, ноутбук, покупки, зарядка, блокнот и ещё пара вещей,
+                которые «на всякий случай». Вместительный, прочный и достаточно
+                лаконичный, чтобы сочетаться с чем угодно.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_blue"
+                  data-image="images/key_blue.png"
+                  data-color="blue"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+
+                <span
+                  class="popup_color popup_color_pink active"
+                  data-image="images/key_pink.png"
+                  data-color="pink"
+                  data-price="1099 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>180 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>плотный хлопок, переработанный пластик</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>помогает носить всё необходимое</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_popup" id="product5" data-product="metalCoat">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>МЕТАЛЛИЧЕСКИЙ ПЛАЩ</h2>
+              <p class="popup_price">888 ₽</p>
+
+              <p class="popup_description">
+                Не столько одежда, сколько заявление. Металлический блеск
+                меняется вместе со светом, превращая привычный силуэт в объект
+                внимания. Для тех случаев, когда незаметность не входит в планы.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>950 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>металлизированная ткань</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>отражает свет и некоторые сомнения.</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_popup" id="product6" data-product="Coat">
+          <div class="product_popup_content">
+            <button class="popup_close">
+              <img
+                class="close_default"
+                src="images/close_default.png"
+                alt=""
+              />
+              <img class="close_hover" src="images/close_hover.png" alt="" />
+            </button>
+
+            <div class="product_popup_left">
+              <div class="product_gallery">
+                <div class="gallery_thumbs">
+                  <img src="images/key1.png" class="thumb active" />
+                  <img src="images/key2.png" class="thumb" />
+                  <img src="images/key3.png" class="thumb" />
+                  <img src="images/key4.png" class="thumb" />
+                  <img src="images/key5.gif" class="thumb video_thumb" />
+                </div>
+
+                <div class="gallery_main">
+                  <button class="gallery_arrow gallery_prev">
+                    <img src="images/arrow_left.png" alt="" />
+                  </button>
+
+                  <img
+                    id="mainProductImage"
+                    src="images/red_klatch1.png"
+                    class="main_image"
+                  />
+
+                  <button class="gallery_arrow gallery_next">
+                    <img src="images/arrow_right.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <button class="popup_fav"></button>
+            </div>
+
+            <div class="product_popup_right">
+              <h2>ДОЖДЕВИК</h2>
+              <p class="popup_price">999 ₽</p>
+
+              <p class="popup_description">
+                Для дней, когда небо решило высказаться. Лёгкий дождевик,
+                который защищает от непогоды и позволяет продолжать движение
+                независимо от прогноза. Простая форма, понятная функция и
+                немного спокойствия поверх одежды.
+              </p>
+
+              <div class="popup_colors">
+                <span
+                  class="popup_color popup_color_grey"
+                  data-image="images/key_grey.png"
+                  data-color="grey"
+                  data-price="999 ₽"
+                ></span>
+              </div>
+
+              <div class="popup_specs">
+                <div class="spec_row">
+                  <span>вес товара</span>
+                  <span>350 г</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>материал</span>
+                  <span>водоотталкивающий полиэстер</span>
+                </div>
+
+                <div class="spec_row">
+                  <span>особенность</span>
+                  <span>сохраняет остатки хорошего настроения</span>
+                </div>
+              </div>
+
+              <button class="add_to_cart">Добавить в корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="bg_lines">
+          <img src="images/lines6.png" alt="" />
+        </div>
+      </section>
+      <section id="thirdSection_Shop"></section>
+    </section>
+  </body>
+</html>
